@@ -1,0 +1,15 @@
+.SearchSQLOutput {
+  display: flex;
+  margin-top: 2.5rem;
+  border: 1px solid #e2e8f0;
+  height: 10rem;
+  border-radius: 3px;
+  background-color: white;
+  padding: 1rem;
+
+  .text-output-wrapper {
+    display: flex;
+    margin: auto;
+    color: #64748b;
+  }
+}

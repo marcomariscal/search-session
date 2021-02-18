@@ -1,0 +1,30 @@
+.SearchFilter {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  height: 4rem;
+  border-radius: 3px;
+  background-color: white;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+
+  .remove-filter-img {
+    display: flex;
+    height: 18px;
+    width: 18px;
+  }
+
+  .remove-filter-btn {
+    margin-left: 0.5rem;
+    background-color: white;
+    border: none;
+  }
+  .remove-filter-btn:hover,
+  .remove-filter-btn:active,
+  .remove-filter-btn:focus {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+}

@@ -1,0 +1,29 @@
+.SearchFilters {
+  .and-btn {
+    background-color: #38bdf8;
+    border: none;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    width: 5rem;
+    font-size: 1rem;
+  }
+
+  .and-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .and-btn:active,
+  .and-btn:hover,
+  .and-btn:focus {
+    outline: none;
+  }
+
+  .and-btn-wrapper {
+    align-items: center;
+    display: flex;
+    margin-top: 1rem;
+    height: 2.5rem;
+  }
+}
